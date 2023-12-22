@@ -5,13 +5,13 @@ const Banner = () => {
     <div
       className="hero min-h-screen"
       style={{
-        backgroundImage: "url(https://i.ibb.co/f0FSLyf/banner.jpg)",
+        backgroundImage: "url(https://i.ibb.co/f0FSLyf/banner.jpg)", position: "cover"
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="">
-          <h1 className="mb-5 text-7xl font-bold uppercase">
+          <h1 className="mb-5 text-5xl md:text-7xl font-bold uppercase">
             ONLINE <span className="text-[#FF7452]">TASK</span> MANAGER{" "}
           </h1>
          

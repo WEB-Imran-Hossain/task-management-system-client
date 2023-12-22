@@ -11,13 +11,13 @@ const About = () => {
                 <div
                     className="hero min-h-screen bg-fixed "
                     style={{
-                        backgroundImage: "url(https://i.ibb.co/Y0FJf9d/banner-About.jpg",
+                        backgroundImage: "url(https://i.ibb.co/Y0FJf9d/banner-About.jpg", position: "cover"
                     }}
                 >
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="max-w-2xl">
-                            <h1 className="mb-5  text-5xl lg:text-8xl font-bold">
+                            <h1 className="mb-5 text-5xl md:text-7xl font-bold uppercase">
                                 ABOUT
                             </h1>
                         </div>
@@ -28,12 +28,14 @@ const About = () => {
                 <div className="hero-content flex-col lg:flex-row flex-col-reverse mt-32">
                     <div className="lg:w-1/2 lg:mt-0 lg:text-left w-10/12">
                         <div className="lg:w-4/5 space-y-4">
-                            <h5 className=" text-4xl md:text-5xl font-bold text-[#1D2833] uppercase">
+                            <h5 className=" text-4xl md:text-5xl font-bold text-[#1D2833] uppercase text-center lg:text-left">
                             Simple and flexible Experiences
                             </h5>
-                            <button className="btn hover:bg-transparent text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded uppercase">
+                           <div className="text-center lg:text-left">
+                           <button className="btn hover:bg-transparent text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded uppercase">
                                 Read More
                             </button>
+                           </div>
                         </div>
                     </div>
                     <div className="relative ml-14">

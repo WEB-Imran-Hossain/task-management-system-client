@@ -117,7 +117,7 @@ const Header = () => {
           </div>
           <div>
             <Link to="/">
-              <img className=" max-w-44 md:max-w-72 md:ml-20 ml-0" src={logo} alt="" />
+              <img className=" max-w-44 md:max-w-72 md:ml-20" src={logo} alt="" />
             </Link>
           </div>
         </div>
