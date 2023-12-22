@@ -58,6 +58,20 @@ const Header = () => {
       </li>
       <li>
         <NavLink
+          to="/plans"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "active"
+              : "hover:bg-inherit hover:text-[#FF7452]"
+          }
+        >
+          PLANS
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
           to="/contact"
           className={({ isActive, isPending }) =>
             isPending
@@ -103,7 +117,7 @@ const Header = () => {
           </div>
           <div>
             <Link to="/">
-              <img className="w-72 ml-8 md:ml-36" src={logo} alt="" />
+              <img className=" max-w-44 md:max-w-72 md:ml-20 ml-0" src={logo} alt="" />
             </Link>
           </div>
         </div>

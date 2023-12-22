@@ -167,7 +167,7 @@ const Registration = () => {
 
               <div className="form-control mt-6">
                 <input
-                  className="btn hover:bg-transparent text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded-none uppercase font-Rajdhani"
+                  className="btn hover:bg-transparent text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded uppercase"
                   type="submit"
                   value="Sign Up"
                 />

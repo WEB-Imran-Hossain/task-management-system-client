@@ -55,7 +55,7 @@ const Login = () => {
         <div className="card flex-shrink-0 shadow-2xl bg-base-100 p-5 rounded-none mt-32 mb-10">
           <div className="card-body w-[30rem]">
             <h1 className="text-2xl font-semibold text-black font-Rajdhani">
-              Welcome Back to Web Tec
+              Welcome!
             </h1>
             <p className="text-base font-normal text-[#1D2833]">
               Don't have an account yet?{" "}
@@ -99,7 +99,7 @@ const Login = () => {
               </div>
               <div className="form-control mt-6">
                 <input
-                  className="btn hover:bg-transparent text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded-none uppercase font-Rajdhani"
+                  className="btn hover:bg-transparent text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded uppercase"
                   type="submit"
                   value="Log In"
                 />

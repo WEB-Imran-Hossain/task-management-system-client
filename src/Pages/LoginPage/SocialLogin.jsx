@@ -16,15 +16,6 @@ const SocialLogin = () => {
       .then((res) => {
         const currentUser = res?.user;
         console.log("current user from social login", currentUser);
-        axiosPublic
-          .post("/users", {
-            email: res.user?.email,
-            name: res.user?.displayName,
-            role: "user"
-          })
-          .then((res) => {
-            console.log(res.data);
-          });
         if (res.user) {
           Swal.fire({
             position: "top-center",
@@ -46,7 +37,7 @@ const SocialLogin = () => {
       <div className="flex items-center justify-center">
         <button
           onClick={handleSocialLogin}
-          className="text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-white font-Rajdhani font-bold p-3 flex items-center"
+          className="text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-white font-bold p-3 flex items-center rounded"
         >
           <FaGoogle className="mr-2"></FaGoogle>Continue with Google
         </button>

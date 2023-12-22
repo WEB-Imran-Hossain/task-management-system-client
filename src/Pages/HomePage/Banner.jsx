@@ -1,24 +1,25 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
     <div
       className="hero min-h-screen"
       style={{
-        backgroundImage:
-          "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+        backgroundImage: "url(https://i.ibb.co/f0FSLyf/banner.jpg)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button className="btn btn-primary">Get Started</button>
+        <div className="">
+          <h1 className="mb-5 text-7xl font-bold uppercase">
+            ONLINE <span className="text-[#FF7452]">TASK</span> MANAGER{" "}
+          </h1>
+         
+          <Link to="/login">
+            <button className="btn hover:bg-transparent text-white bg-[#FF7452] border-[#FF7452] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded uppercase">
+              Let’s Explore
+            </button>
+          </Link>
         </div>
       </div>
     </div>
