@@ -3,7 +3,6 @@ import "aos/dist/aos.css";
 // ..
 AOS.init();
 import about1 from "../../assets/images/about1.jpg";
-import about2 from "../../assets/images/about2.jpg";
 
 const About = () => {
     return (
@@ -45,7 +44,7 @@ const About = () => {
                         />
                         <img
                             data-aos="fade-left"
-                            src={about2}
+                            src={about1}
                             className="w-1/2 rounded-lg shadow-2xl absolute  lg:top-60 lg:-left-24 top-28 -left-12 bottom-0 border-8  border-white"
                         />
                     </div>
