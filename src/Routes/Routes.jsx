@@ -7,6 +7,7 @@ import Registration from "../Pages/RegistrationPage/Registration";
 import Plans from "../Pages/PlansPage/Plans";
 import About from "../Pages/AboutPage/About";
 import Contact from "../Pages/ContactPage/Contact";
+import Dashboard from "../Pages/DashboardPage/Dashboard";
 
 export const router = createBrowserRouter([
   {
@@ -40,4 +41,8 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  {
+path: "dashboard",
+element: <Dashboard></Dashboard>
+  }
 ]);

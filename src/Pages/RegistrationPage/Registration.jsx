@@ -90,8 +90,8 @@ const Registration = () => {
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="card flex-shrink-0 shadow-2xl bg-base-100 p-5 rounded-none mt-32 mb-10">
-          <div className="card-body w-[30rem]">
+        <div className="card flex-shrink-0 shadow-2xl bg-base-100 p-5 rounded mt-32 mb-10">
+          <div className="card-body w-[25rem] lg:w-[30rem]">
             <h1 className="text-2xl font-semibold text-black font-Rajdhani">
               Welcome Back to Web Tec
             </h1>
